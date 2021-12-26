@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Open+Sans+Condensed:wght@300&display=swap');
+* {
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+body {
+    font-family: Sans Condensed, sans-serif;
+    font-weight: 400;
+    color: grey;
+}
+/* logo and nav headings */
+h1 h2 {
+    text-align: center;
+    height: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+#logo {
+    font-family: Amatic Sc, sans-serif;
+    text-align: center;
+    margin: 30px;
+    font-weight: bold;
+    
+}
