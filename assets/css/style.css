@@ -41,8 +41,12 @@ button {
     display: none;
     position: absolute;
 }
+/* need to fix dropdown spacing for "home", add active underline and hover menu effect*/
 #dropdown-content a {
     display: block;
+    width: 100%;
+    padding-left: 20px;
+    text-align: inherit;
 }
 #menu-dropdown:hover #dropdown-content {
     display: block;
