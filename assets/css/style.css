@@ -14,7 +14,7 @@ body {
 h1, h2{
     text-transform: uppercase;
     font-family: Amatic Sc, sans-serif;
-    font-size: 16px;
+    font-size: 26px;
     letter-spacing: 3px;
     color: slategray;
 }
@@ -23,5 +23,11 @@ h1, h2{
     font-size: 40px;
     text-align: center;
     position: relative;
-    margin: 25px;
+    margin: 25px 25px 10px 25px;
+}
+button {
+    margin-left: 20px;
+    padding: 0px 5px 0px 5px;
+    background-color: rgb(241, 240, 240);
+    float: left;
 }
