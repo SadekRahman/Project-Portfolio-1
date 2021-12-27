@@ -64,6 +64,14 @@ button {
     width: 100%;
     height: 500px;
     overflow: hidden;
+    position: relative;
+}
+/*cover-text*/
+#cover-text, #cover-text h2, #cover-text h3 {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
 }
 /*I want a much smaller image for phones*/
 #hero-image {
@@ -83,4 +91,18 @@ button {
         transform: scale(1);
         opacity: 100%;
     }
+}
+/* for full size screen increase font-size decrease size of banner*/
+#cover-text {
+    font-size: 110%;
+    font-family: Amatic Sc, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    background-color: #ee9a5e;
+    opacity: 0.7;
+    top: 60%;
+    position: absolute;
 }
