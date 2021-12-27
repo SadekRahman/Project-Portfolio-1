@@ -9,7 +9,40 @@ body {
     font-weight: 400;
     color: grey;
 }
-/* logo and nav headings */
+/* menu */
+.dropdown-menu-btn {
+    font-size: 20px;
+    font-family: Amatic Sc, sans-serif;
+    letter-spacing: 3px;
+    background-color: white;
+    float: left;
+    margin-left: 25px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: none;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropwdown-content a {
+    text-decoration: none;
+    display: block;
+}
+.dropwdown-content a:hover {
+    background-color: sandybrown;
+}
+.dropdown:hover .menu-content {
+    display: block;
+}
+/* headings */
 h1 {
     text-align: center;
     height: 100%;
@@ -28,27 +61,10 @@ h2 {
     letter-spacing: 4px;
     font-size: 25px;
 }
+/* logo */
 .logo {
     font-family: Amatic Sc, sans-serif;
     text-align: center;
-    margin: 30px;
+    margin: 20px 20px 10px 20px;
     font-weight: bold; 
-}
-
-/* menu */
-.menu {
-    float: left;
-    margin-left: 25px;
-    border: none;
-    display: inline-block;
-    position: relative;
-}
-.dropdown-menu {
-    font-size: 20px;
-    font-family: Amatic Sc, sans-serif;
-    letter-spacing: 3px;
-    background-color: white;
-}
-.menu-content {
-
 }
