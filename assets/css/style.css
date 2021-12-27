@@ -15,7 +15,7 @@ h1, h2{
     text-transform: uppercase;
     font-family: Amatic Sc, sans-serif;
     font-size: 26px;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     color: slategray;
 }
 
@@ -25,9 +25,25 @@ h1, h2{
     position: relative;
     margin: 25px 25px 10px 25px;
 }
+/* dropdown menu*/
+/* menu button*/
 button {
     margin-left: 20px;
     padding: 0px 5px 0px 5px;
     background-color: rgb(241, 240, 240);
     float: left;
+}
+#menu-dropdown {
+    position: relative;
+    display: inline-block;
+}
+#dropdown-content {
+    display: none;
+    position: absolute;
+}
+#dropdown-content a {
+    display: block;
+}
+#menu-dropdown:hover #dropdown-content {
+    display: block;
 }
