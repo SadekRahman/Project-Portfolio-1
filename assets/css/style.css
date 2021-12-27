@@ -106,3 +106,59 @@ button {
     top: 60%;
     position: absolute;
 }
+
+/* convincing the reader */
+
+#win-the-heart {
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+#left-choose {
+    height: 300px;
+    width: 20%;
+    padding-left: 10px;
+    float: left;
+}
+#right-choose {
+    height: 300px;
+    width: 20%;
+    padding-right: 10px;
+    float: right;
+}
+#center-choose {
+    height: 100px;
+    width: 80%;
+    padding: 10px;
+}
+/* footer */
+footer {
+    background-color: lightgray;
+    height: 150px;
+    margin-bottom: 0px;
+
+}
+.icons{
+    text-align: center;
+}
+.icons > li{
+    display: inline;
+}
+
+.icons i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 2%;
+    color: rgb(87, 99, 112);
+}
+.phone {
+    float: left;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+.email {
+    float: right;
+    margin-right: 20px;
+    padding-top: 5px;
+}
