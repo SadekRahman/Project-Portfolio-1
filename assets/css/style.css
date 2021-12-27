@@ -115,28 +115,20 @@ button {
     text-align: center;
     padding-top: 20px;
 }
-#left-choose {
-    height: 300px;
-    width: 20%;
-    padding-left: 10px;
-    float: left;
-}
-#right-choose {
-    height: 300px;
-    width: 20%;
-    padding-right: 10px;
-    float: right;
-}
+
 #center-choose {
-    height: 100px;
-    width: 80%;
+    height: 250px;
+    width: 100%;
     padding: 10px;
+    background: url(../images/dogprints.webp) no-repeat center center;
+    opacity: 50%;
 }
+
 /* footer */
 footer {
     background-color: lightgray;
     height: 150px;
-    margin-bottom: 0px;
+    margin: 0px;
 
 }
 .icons{
