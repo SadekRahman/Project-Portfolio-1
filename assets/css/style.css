@@ -194,12 +194,13 @@ div > h1 {
     text-align: right;
     margin-top: 20px;
     margin-bottom: 10px;
-    width: 66%;
+    width: 50%;
     float: inline-start;
 }
 div > p {
-    text-align: right;
+    text-align: center;
     margin: auto;
+    width: 10%;
 
 }
 
@@ -221,7 +222,11 @@ div > p {
         background-size: cover;
         margin: auto;
     }
-    
+    div > h1 {
+        text-align: center;
+        margin: auto;
+        float: inline-start;
+    }
     div > p {
         text-align: center;
         margin-top: 10px;
