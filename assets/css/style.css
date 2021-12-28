@@ -98,7 +98,7 @@ button {
 }
 /* for full size screen increase font-size decrease size of banner*/
 #cover-text {
-    font-size: 110%;
+    font-size: 170%;
     font-family: Amatic Sc, sans-serif;
     text-transform: capitalize;
     letter-spacing: 3px;
@@ -107,7 +107,7 @@ button {
     padding-top: 30px;
     background-color: #ee9a5e;
     opacity: 0.7;
-    top: 60%;
+    top: 70%;
     position: absolute;
 }
 
@@ -178,5 +178,9 @@ footer {
         float: none;
         text-align: center;
         margin: 0 auto;
+    }
+    #cover-text {
+        top: 60%;
+        font-size: 110%;
     }
 }
