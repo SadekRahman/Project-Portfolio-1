@@ -44,7 +44,7 @@ button {
     text-align: left;
     margin: 35px 35px 5px 20px;
 }
-/* need to fix dropdown spacing for "home", add active underline and hover menu effect, change a text to darker grey*/
+/* add active underline and hover menu effect*/
 #dropdown-content a {
     display: block;
     width: 100%;
@@ -70,7 +70,7 @@ button {
 }
 /*cover-text*/
 #cover-text, #cover-text h2, #cover-text h3 {
-    color: white;
+    color: black;
     text-align: center;
     font-size: 150%;
     font-weight: bold;
@@ -123,9 +123,22 @@ button {
 #center-choose {
     height: 250px;
     width: 100%;
-    padding: 10px;
     background: url(../images/dogprints.webp) no-repeat center center;
-    opacity: 50%;
+    opacity: 20%;
+}
+
+#why-choose-us-text, #why-choose-us-text h3, #why-choose-us-text p {
+    color: black;
+    text-align: center;
+    font-size: 110%;
+}
+/*700px for laptop*/
+#why-choose-us-text {
+    font-family: Amatic Sc, sans-serif;
+    letter-spacing: 3px;
+    width: 100%;
+    top: -250px;
+    position: relative;
 }
 
 /* footer */
@@ -157,4 +170,13 @@ footer {
     float: right;
     margin-right: 20px;
     padding-top: 5px;
+}
+
+/* media-queries for 550px and below */
+@media screen and (max-width: 550px) {
+    .phone, .email {
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+    }
 }
