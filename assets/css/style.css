@@ -184,3 +184,14 @@ footer {
         font-size: 110%;
     }
 }
+/* meet the doggos */
+div > img {
+    height: 200px;
+    width: auto;
+    padding: 20px;
+    position: relative;
+}
+.rigth-about {
+    text-align: center;
+    float: right;
+}
