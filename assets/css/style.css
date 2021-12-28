@@ -146,6 +146,8 @@ footer {
     background-color: lightgray;
     height: 150px;
     margin: 0px;
+    position: absolute;
+    width: 100%;
 
 }
 .icons{
@@ -172,6 +174,35 @@ footer {
     padding-top: 5px;
 }
 
+/* meet the doggos */
+#welcome {
+    font-size: 300%;
+    text-align: center;
+}
+.Chester-left-picture {
+    background: url(../images/IMG_2545\ \(1\).jpg) no-repeat center center;
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    margin: 20px;
+    float: inline-start;
+    position: relative;
+    text-align: right;
+}
+
+div > h1 {
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 66%;
+    float: inline-start;
+}
+div > p {
+    text-align: right;
+    margin: auto;
+
+}
+
 /* media-queries for 550px and below */
 @media screen and (max-width: 550px) {
     .phone, .email {
@@ -183,15 +214,17 @@ footer {
         top: 60%;
         font-size: 110%;
     }
-}
-/* meet the doggos */
-div > img {
-    height: 200px;
-    width: auto;
-    padding: 20px;
-    position: relative;
-}
-.rigth-about {
-    text-align: center;
-    float: right;
+    .Chester-left-picture {
+        background: url(../images/IMG_2545\ \(1\).jpg) no-repeat center center;
+        height: 250px;
+        width: 250px;
+        background-size: cover;
+        margin: auto;
+    }
+    
+    div > p {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
