@@ -225,7 +225,17 @@ input {
     color: black;
     padding: 5px 0px 5px 5px;
 }
+/*if i have time at the end
+input[submit]:hover {
+    font-size: 30px;
+}
+*/
 
+#thankyou h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
 /* media-queries for 690px and below */
 @media screen and (max-width: 690px) {
     .phone, .email {
