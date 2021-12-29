@@ -1,4 +1,4 @@
-# Adopt a Dog
+# Adopt A Dog
 
 A dog adoption website which partially runs on customer donations
 
@@ -61,3 +61,33 @@ Font
 * Adopt/ apply to adopt a dog
 * Donate to this organisation
 * Finding a companion
+
+### -Existing Features-
+
+### Index/Home
+
+#### Menu Button
+Essentially acting like a Nav Bar. This button drop downs and allows the user to navigate to rest of the website from any page. No need to revert back to the previous page using the "back button".
+It consists of two navigation links. One for Home and one for viewing the dogs avaialble. 
+
+#### Donation Button
+This allows the user to navigate to the the donation page regardless on which page they are on. 
+
+#### Section 1 
+This is a picture of a dog looking at a tennis ball. 
+This sets the mood for the user and dog interaction, subconciously convincing the user that this is the correct life-decision for them. 
+
+We also have cover-text over the hero image, again prompting the user further and taking them further along the,subconcious, road to adoption.
+
+#### Section 2
+This is to give the user some background knowledge on the company. As they become more familarised with the company they are more likely to use its service or donate in this instance. This section also offers the users reasons to choose Adopt A Dog instead of an alternative adoption agency. 
+
+#### The Footer
+This has links to social media through respective icons. These open on a new tab. 
+We also have the contact details for the company which is accessible from any page. Having this information readily available allows the user to get in contact quickly and easily, without the need to search for contact details.
+
+### Meet the Doggos
+This page allows the user to browse through the dogs that are currently avainlable. This page consists of a picture and a small paragraph written in the 1st person, from the dog's persepctive, and offers a description for the respective dog. 
+
+### Donation
+This page allows the user to enter contact and bank details to submit a donation going towards the company. 
