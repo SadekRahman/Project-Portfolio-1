@@ -46,3 +46,18 @@ Font
 
 - We use Amatic Sc with a fall back of sans-serif throughout the webiste to mantain a level of consistency and allows the viewer to familiarise themselves further. 
 
+## --Organisation Goals--
+* To show the user that Adoptadog is the place where one should look if thinking about adopting a dog. 
+* To allow the user to support the organisation via donations
+* Increased donations allow the organisation to keep going and homing more dogs 
+
+## Target Audeince
+
+* Users looking to adopt a dog
+* Users looking to donate to a dog adoption agaency
+
+## User goals 
+
+* Adopt/ apply to adopt a dog
+* Donate to this organisation
+* Finding a companion
