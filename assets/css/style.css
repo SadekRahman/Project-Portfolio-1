@@ -202,9 +202,14 @@ div > p {
     margin: 100px 30px 100px 50px;
     width: 50%;
 }
-
-/* media-queries for 550px and below */
-@media screen and (max-width: 550px) {
+/* donation page*/
+input {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+}
+/* media-queries for 690px and below */
+@media screen and (max-width: 690px) {
     .phone, .email {
         float: none;
         text-align: center;
