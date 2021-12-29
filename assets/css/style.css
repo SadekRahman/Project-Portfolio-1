@@ -203,11 +203,30 @@ div > p {
     width: 50%;
 }
 /* donation page*/
+input, form {
+    font-family: Amatic Sc, sans-serif;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    font-size: 24px;
+    background-color: rgb(241, 240, 240);
+    border-radius: 5%;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 input {
     display: inline-block;
-    width: 100%;
-    padding: 10px;
+    width: 97%;
+    font-size: 18px;
+    color: black;
+    padding: 5px 0px 5px 5px;
+    
 }
+
 /* media-queries for 690px and below */
 @media screen and (max-width: 690px) {
     .phone, .email {
