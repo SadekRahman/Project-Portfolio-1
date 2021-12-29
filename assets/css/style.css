@@ -200,7 +200,10 @@ div > h1 {
 div > p {
     text-align: center;
     margin: auto;
-    width: 10%;
+    width: 100%;
+    font-family: Amatic Sc, sans-serif;
+    letter-spacing: 2px;
+    font-size: 26px;
 
 }
 
