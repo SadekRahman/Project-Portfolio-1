@@ -127,7 +127,7 @@ button {
     opacity: 20%;
 }
 
-#why-choose-us-text, #why-choose-us-text h3, #why-choose-us-text p {
+#why-choose-us-text, #why-choose-us-text h3, #why-choose-us-text h4 {
     color: black;
     text-align: center;
     font-size: 110%;
@@ -178,16 +178,13 @@ footer {
 #welcome {
     font-size: 300%;
     text-align: center;
+
 }
-.Chester-left-picture {
-    background: url(../images/IMG_2545\ \(1\).jpg) no-repeat center center;
-    height: 250px;
-    width: 250px;
+
+div > img {
+    width: 33%;
     background-size: cover;
     margin: 20px;
-    float: inline-start;
-    position: relative;
-    text-align: right;
 }
 
 div > h1 {
@@ -198,13 +195,12 @@ div > h1 {
     float: inline-start;
 }
 div > p {
-    text-align: center;
-    margin: auto;
-    width: 100%;
     font-family: Amatic Sc, sans-serif;
     letter-spacing: 2px;
     font-size: 26px;
-
+    float: left;
+    margin: 100px 30px 100px 50px;
+    width: 50%;
 }
 
 /* media-queries for 550px and below */
@@ -217,22 +213,5 @@ div > p {
     #cover-text {
         top: 60%;
         font-size: 110%;
-    }
-    .Chester-left-picture {
-        background: url(../images/IMG_2545\ \(1\).jpg) no-repeat center center;
-        height: 250px;
-        width: 250px;
-        background-size: cover;
-        margin: auto;
-    }
-    div > h1 {
-        text-align: center;
-        margin: auto;
-        float: inline-start;
-    }
-    div > p {
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
     }
 }
