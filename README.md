@@ -122,16 +122,31 @@ Allow users to create an account.
 
 ## Testing 
 
-All pages have been tested across all screen sizes from 360px x 640px and upwards and have been styled accordingly. 
-All links work and redirect. 
+All pages have been tested across all screen sizes from 360px x 640px and upwards and have been styled accordingly. The website is responsive.
+All links work and redirect across all screen sizes and web browsers
 All external liks open in a new tab using target="_blank" function. 
-Testing has been done across 3 different web browsers. 
+Testing has been done across 3 different web browsers : Safari, Chrome and Firefox and the webiste works on all three browsers.
 
 ### Validator Testing
-CSS fully validated through (https://jigsaw.w3.org/css-validator/)
+CSS fully validated through - no errors found (https://jigsaw.w3.org/css-validator/)
 Index.html validated through (https://validator.w3.org/)
-meet_the_doggoss.html validated through (https://validator.w3.org/) 
-donation.html validated through (https://validator.w3.org/)
+meet_the_doggoss.html validated through - no errors found (https://validator.w3.org/) 
+donation.html validated through - no errors found(https://validator.w3.org/)
+
+Accessibilty 
+I can confirm that the colors and fonts used are easy to read and accessible by running it through lighthouse in dev tools
+
+![Screen Shot 2021-12-30 at 13 45 32](https://user-images.githubusercontent.com/94856444/147757803-4137abd5-b9de-4316-9d4b-69cc74e299f3.png)
 
 #### Tools
-To reduce size of image I used (https://www.reduceimages.com/)
+To reduce the size of images I used (https://www.reduceimages.com/)
+To format my css code I used (www.cleancss.com)
+To format my html code I used (webformatter.com)
+
+## Bugs
+I found that near the start of my project the menu I had in place as my nav bar was not showing. However, after setting the position to relative it then started to appear. 
+
+## Unifixed Bugs
+No unfixed bugs
+
+## Deployment 
