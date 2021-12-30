@@ -1,280 +1,261 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Open+Sans+Condensed:wght@300&display=swap');
-* {
-    margin: 0;
-    border: none;
-    padding: 0;
-    text-decoration: none;
+ * {
+     margin: 0;
+     border: none;
+     padding: 0;
+     text-decoration: none;
 }
-body {
-    font-family: Sans Condensed, sans-serif;
-    font-weight: 400;
-    color: grey;
+ body {
+     font-family: Sans Condensed, sans-serif;
+     font-weight: 400;
+     color: grey;
 }
 /* headings and logo*/
-h1, h2{
-    text-transform: uppercase;
-    font-family: Amatic Sc, sans-serif;
-    font-size: 26px;
-    letter-spacing: 4px;
-    color: slategray;
+ h1, h2{
+     text-transform: uppercase;
+     font-family: Amatic Sc, sans-serif;
+     font-size: 26px;
+     letter-spacing: 4px;
+     color: slategray;
 }
-
-#logo {
-    font-size: 60px;
-    text-align: center;
-    position: relative;
-    margin: 25px 25px 10px 25px;
+ #logo {
+     font-size: 60px;
+     text-align: center;
+     position: relative;
+     margin: 25px 25px 10px 25px;
 }
 /* dropdown menu*/
 /* menu button*/
-#menubtn, #donate {
-    margin-left: 20px;
-    padding: 0px 5px 0px 5px;
-    background-color: rgb(241, 240, 240);
-    float: left;
-    border-radius: 100%;
+ #menubtn, #donate {
+     margin-left: 20px;
+     padding: 0px 5px 0px 5px;
+     background-color: rgb(241, 240, 240);
+     float: left;
+     border-radius: 100%;
 }
-
-#menu-dropdown {
-    position: relative;
-    display: inline-block;
+ #menu-dropdown {
+     position: relative;
+     display: inline-block;
 }
-#dropdown-content {
-    display: none;
-    position: relative;
-    text-align: left;
-    margin: 35px 35px 5px 20px;
+ #dropdown-content {
+     display: none;
+     position: relative;
+     text-align: left;
+     margin: 35px 35px 5px 20px;
 }
 /* add active underline and hover menu effect*/
-#dropdown-content a {
-    display: block;
-    width: 100%;
-    padding-left: 20px;
-    text-align: inherit;
+ #dropdown-content a {
+     display: block;
+     width: 100%;
+     padding-left: 20px;
+     text-align: inherit;
 }
-#menu-dropdown:hover #dropdown-content {
-    display: block;
+ #menu-dropdown:hover #dropdown-content {
+     display: block;
 }
 /* donate button*/
-#donate {
-    float:right;
-    margin-right: 20px;
-    padding: 0px 5px 0px 5px;
-    background-color: rgb(241, 240, 240);
+ #donate {
+     float:right;
+     margin-right: 20px;
+     padding: 0px 5px 0px 5px;
+     background-color: rgb(241, 240, 240);
 }
 /*hero image*/
-#hero-outer {
-    width: 100%;
-    height: 500px;
-    overflow: hidden;
-    position: relative;
+ #hero-outer {
+     width: 100%;
+     height: 500px;
+     overflow: hidden;
+     position: relative;
 }
 /*cover-text*/
-#cover-text, #cover-text h2, #cover-text h3 {
-    color: black;
-    text-align: center;
-    font-size: 150%;
-    font-weight: bold;
-    padding-left: 10px;
-    padding-right: 20px;
+ #cover-text, #cover-text h2, #cover-text h3 {
+     color: black;
+     text-align: center;
+     font-size: 150%;
+     font-weight: bold;
+     padding-left: 10px;
+     padding-right: 20px;
 }
-/*I want a much smaller image for phones*/
-#hero-image {
-    background: url(../images/playing\ with\ dog.jpeg) no-repeat center center;
-    width: 100%;
-    height: 500px;
-    animation-name: hello-doggy;
-    animation-duration: 2.7s;
-    animation-fill-mode: forwards;
+ #hero-image {
+     background: url(../images/playing\ with\ dog.jpeg) no-repeat center center;
+     width: 100%;
+     height: 500px;
+     animation-name: hello-doggy;
+     animation-duration: 2.7s;
+     animation-fill-mode: forwards;
 }
-@keyframes hello-doggy {
-    from{
-        transform: scale(1.2);
-        opacity: 60%;
+ @keyframes hello-doggy {
+     from{
+         transform: scale(1.2);
+         opacity: 60%;
     }
-    to{
-        transform: scale(1);
-        opacity: 100%;
+     to{
+         transform: scale(1);
+         opacity: 100%;
     }
 }
-/* for full size screen increase font-size decrease size of banner*/
-#cover-text {
-    font-size: 170%;
-    font-family: Amatic Sc, sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 3px;
-    width: 100%;
-    height: 100%;
-    padding-top: 30px;
-    background-color: #ee9a5e;
-    opacity: 0.7;
-    top: 70%;
-    position: absolute;
+ #cover-text {
+     font-size: 170%;
+     font-family: Amatic Sc, sans-serif;
+     text-transform: capitalize;
+     letter-spacing: 3px;
+     width: 100%;
+     height: 100%;
+     padding-top: 30px;
+     background-color: #ee9a5e;
+     opacity: 0.7;
+     top: 70%;
+     position: absolute;
 }
-
 /* convincing the reader */
-
-#win-the-heart {
-    height: 300px;
-    width: 100%;
-    text-align: center;
-    padding-top: 20px;
+ #win-the-heart {
+     height: 300px;
+     width: 100%;
+     text-align: center;
+     padding-top: 20px;
 }
-
-#center-choose {
-    height: 250px;
-    width: 100%;
-    background: url(../images/dogprints.webp) no-repeat center center;
-    opacity: 10%;
+ #center-choose {
+     height: 250px;
+     width: 100%;
+     background: url(../images/dogprints.webp) no-repeat center center;
+     opacity: 10%;
 }
-
-#why-choose-us-text, #why-choose-us-text h3, #why-choose-us-text h4 {
-    color: black;
-    text-align: center;
-    font-size: 120%;
-    width: 90%;
-    margin: auto;
+ #why-choose-us-text, #why-choose-us-text h3, #why-choose-us-text h4 {
+     color: black;
+     text-align: center;
+     font-size: 120%;
+     width: 90%;
+     margin: auto;
 }
-
-#why-choose-us-text {
-    font-family: Amatic Sc, sans-serif;
-    letter-spacing: 3px;
-    width: 100%;
-    top: -250px;
-    position: relative;
+ #why-choose-us-text {
+     font-family: Amatic Sc, sans-serif;
+     letter-spacing: 3px;
+     width: 100%;
+     top: -250px;
+     position: relative;
 }
-
 /* footer */
-footer {
-    background-color: lightgray;
-    height: 150px;
-    margin: 0px;
-    position: absolute;
-    width: 100%;
-
+ footer {
+     background-color: lightgray;
+     height: 150px;
+     margin: 0px;
+     position: absolute;
+     width: 100%;
 }
-.icons{
-    text-align: center;
+ .icons{
+     text-align: center;
 }
-.icons > li{
-    display: inline;
+ .icons > li{
+     display: inline;
 }
-
-.icons i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 2%;
-    color: rgb(87, 99, 112);
+ .icons i {
+     font-size: 160%;
+     margin: 1%;
+     padding: 2%;
+     color: rgb(87, 99, 112);
 }
-.phone {
-    float: left;
-    margin-left: 20px;
-    padding-top: 5px;
+ .phone {
+     float: left;
+     margin-left: 20px;
+     padding-top: 5px;
 }
-.email {
-    float: right;
-    margin-right: 20px;
-    padding-top: 5px;
+ .email {
+     float: right;
+     margin-right: 20px;
+     padding-top: 5px;
 }
-
 /* meet the doggos */
-#welcome {
-    font-size: 300%;
-    text-align: center;
-
+ #welcome {
+     font-size: 300%;
+     text-align: center;
 }
-
-div > img {
-    width: 33%;
-    background-size: cover;
-    margin: 20px;
+ div > img {
+     width: 33%;
+     background-size: cover;
+     margin: 20px;
 }
-
-div > h1 {
-    text-align: right;
-    margin-top: 30px;
-    width: 50%;
-    float: inline-start;
+ div > h1 {
+     text-align: right;
+     margin-top: 30px;
+     width: 50%;
+     float: inline-start;
 }
-div > p {
-    font-family: Amatic Sc, sans-serif;
-    letter-spacing: 2px;
-    font-size: 26px;
-    float: left;
-    margin: 100px 30px 100px 50px;
-    width: 50%;
-    text-align: center;
+ div > p {
+     font-family: Amatic Sc, sans-serif;
+     letter-spacing: 2px;
+     font-size: 26px;
+     float: left;
+     margin: 100px 30px 100px 50px;
+     width: 50%;
+     text-align: center;
 }
 /* donation page*/
-input, form {
-    font-family: Amatic Sc, sans-serif;
-    letter-spacing: 4px;
-    font-weight: bold;
-    text-align: center;
+ input, form {
+     font-family: Amatic Sc, sans-serif;
+     letter-spacing: 4px;
+     font-weight: bold;
+     text-align: center;
 }
-form {
-    margin: 0 auto;
-    font-size: 24px;
-    background-color: rgb(241, 240, 240);
-    border-radius: 1%;
-    width: 95%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+ form {
+     margin: 0 auto;
+     font-size: 24px;
+     background-color: rgb(241, 240, 240);
+     border-radius: 1%;
+     width: 95%;
+     margin-top: 10px;
+     margin-bottom: 10px;
 }
-input {
-    display: inline-block;
-    width: 97%;
-    font-size: 18px;
-    color: black;
-    padding: 5px 0px 5px 5px;
+ input {
+     display: inline-block;
+     width: 97%;
+     font-size: 18px;
+     color: black;
+     padding: 5px 0px 5px 5px;
 }
-
-#thankyou h1{
-    text-align: center;
-    padding: 10px;
-    font-size: 40px;
+ #thankyou h2{
+     text-align: center;
+     padding: 10px;
+     font-size: 40px;
 }
-
 /* media-queries for 690px and below */
-@media screen and (max-width: 690px) {
-    .phone, .email {
-        float: none;
-        text-align: center;
-        margin: 0 auto;
+ @media screen and (max-width: 690px) {
+     .phone, .email {
+         float: none;
+         text-align: center;
+         margin: 0 auto;
     }
-    #cover-text {
-        top: 60%;
-        font-size: 110%;
+     #cover-text {
+         top: 60%;
+         font-size: 110%;
     }
-    #why-choose-us-text, #why-choose-us-text h3, #why-choose-us-text h4 {
-        font-size: 95%;  
+     #why-choose-us-text, #why-choose-us-text h3, #why-choose-us-text h4 {
+         font-size: 95%;
     }
 }
 /* media-queries for 705px and below */
-@media screen and (max-width: 705px) {
-    div > p {
-        font-size: 20px;
-        margin: 5% 0px 10px 20px;
+ @media screen and (max-width: 705px) {
+     div > p {
+         font-size: 20px;
+         margin: 5% 0px 10px 20px;
     }
 }
 /* media-queries for 1000px and above */
-@media screen and (min-width: 1000px) {
-    #why-choose-us-text, #why-choose-us-text h3, #why-choose-us-text h4 {
-        font-size: 130%;
+ @media screen and (min-width: 1000px) {
+     #why-choose-us-text, #why-choose-us-text h3, #why-choose-us-text h4 {
+         font-size: 130%;
     }
-    div > img {
-        width: 25%;
+     div > img {
+         width: 25%;
     }
 }
 /* media-queries for 850px and above */
-@media screen and (min-width: 850px) {
-    div > p {
-        font-size: 36px;
-        margin: 5%;
-        text-align: center;
+ @media screen and (min-width: 850px) {
+     div > p {
+         font-size: 36px;
+         margin: 5%;
+         text-align: center;
     }
-    div > h1 {
-        font-size: 40px;
+     div > h1 {
+         font-size: 40px;
     }
-    
 }
