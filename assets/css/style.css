@@ -126,6 +126,7 @@
      font-size: 120%;
      width: 90%;
      margin: auto;
+     padding-top: 2%;
 }
  #why-choose-us-text {
      font-family: Amatic Sc, sans-serif;
@@ -229,7 +230,7 @@
          font-size: 110%;
     }
      #why-choose-us-text, #why-choose-us-text h3, #why-choose-us-text h4 {
-         font-size: 95%;
+         font-size: 110%;
     }
 }
 /* media-queries for 705px and below */
@@ -242,7 +243,8 @@
 /* media-queries for 1000px and above */
  @media screen and (min-width: 1000px) {
      #why-choose-us-text, #why-choose-us-text h3, #why-choose-us-text h4 {
-         font-size: 130%;
+         font-size: 140%;
+         padding-top: 1%;
     }
      div > img {
          width: 25%;
