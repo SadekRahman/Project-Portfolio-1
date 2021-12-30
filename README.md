@@ -18,7 +18,7 @@ The website is aimed at users who are looking to adopt a dog and to choose from 
 - To easily understand the primary and secondary purpose of the website.
 - To be able to easily navigate through the website
 - To veiw content and use webiste on mobile phones, tablets and laptops. 
-- To conatct the orgainisation for further enquiries or applications
+- To contact the orgainisation for further enquiries or applications
 
 ### Returning Visitor Goals
 
