@@ -124,15 +124,17 @@ button {
     height: 250px;
     width: 100%;
     background: url(../images/dogprints.webp) no-repeat center center;
-    opacity: 20%;
+    opacity: 10%;
 }
 
 #why-choose-us-text, #why-choose-us-text h3, #why-choose-us-text h4 {
     color: black;
     text-align: center;
-    font-size: 110%;
+    font-size: 120%;
+    width: 90%;
+    margin: auto;
 }
-/*700px for laptop*/
+
 #why-choose-us-text {
     font-family: Amatic Sc, sans-serif;
     letter-spacing: 3px;
@@ -189,8 +191,7 @@ div > img {
 
 div > h1 {
     text-align: right;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 30px;
     width: 50%;
     float: inline-start;
 }
@@ -201,6 +202,7 @@ div > p {
     float: left;
     margin: 100px 30px 100px 50px;
     width: 50%;
+    text-align: center;
 }
 /* donation page*/
 input, form {
@@ -225,17 +227,13 @@ input {
     color: black;
     padding: 5px 0px 5px 5px;
 }
-/*if i have time at the end
-input[submit]:hover {
-    font-size: 30px;
-}
-*/
 
 #thankyou h1{
     text-align: center;
     padding: 10px;
     font-size: 40px;
 }
+
 /* media-queries for 690px and below */
 @media screen and (max-width: 690px) {
     .phone, .email {
@@ -247,11 +245,35 @@ input[submit]:hover {
         top: 60%;
         font-size: 110%;
     }
+    #why-choose-us-text, #why-choose-us-text h3, #why-choose-us-text h4 {
+        font-size: 95%;  
+    }
 }
 /* media-queries for 705px and below */
 @media screen and (max-width: 705px) {
     div > p {
         font-size: 20px;
-        margin: 10px 0px 10px 20px;
+        margin: 5% 0px 10px 20px;
     }
+}
+/* media-queries for 1000px and above */
+@media screen and (min-width: 1000px) {
+    #why-choose-us-text, #why-choose-us-text h3, #why-choose-us-text h4 {
+        font-size: 130%;
+    }
+    div > img {
+        width: 25%;
+    }
+}
+/* media-queries for 850px and above */
+@media screen and (min-width: 850px) {
+    div > p {
+        font-size: 36px;
+        margin: 5%;
+        text-align: center;
+    }
+    div > h1 {
+        font-size: 40px;
+    }
+    
 }

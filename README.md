@@ -86,8 +86,10 @@ This is to give the user some background knowledge on the company. As they becom
 This has links to social media through respective icons. These open on a new tab. 
 We also have the contact details for the company which is accessible from any page. Having this information readily available allows the user to get in contact quickly and easily, without the need to search for contact details.
 
-### Meet the Doggos
+### Meet the Doggos (page)
 This page allows the user to browse through the dogs that are currently avainlable. This page consists of a picture and a small paragraph written in the 1st person, from the dog's persepctive, and offers a description for the respective dog. 
 
-### Donation
+### Donation (page)
 This page allows the user to enter contact and bank details to submit a donation going towards the company. 
+
+## Testing 
