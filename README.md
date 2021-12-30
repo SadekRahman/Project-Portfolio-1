@@ -110,4 +110,4 @@ Testing has been done across 3 different web browsers.
 ### Validator Testing
 CSS fully validated through (https://jigsaw.w3.org/css-validator/)
 Index.html validated through (https://validator.w3.org/)
-
+meet_the_doggoss.html validated through (https://validator.w3.org/)
