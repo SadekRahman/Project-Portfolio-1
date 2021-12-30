@@ -27,13 +27,14 @@ h1, h2{
 }
 /* dropdown menu*/
 /* menu button*/
-button {
+#menubtn, #donate {
     margin-left: 20px;
     padding: 0px 5px 0px 5px;
     background-color: rgb(241, 240, 240);
     float: left;
     border-radius: 100%;
 }
+
 #menu-dropdown {
     position: relative;
     display: inline-block;
