@@ -2,7 +2,9 @@
 
 A dog adoption website which partially runs on customer donations
 
-Take a look here url:(#)
+Take a look here url:(https://sadekrahman.github.io/Project-Portfolio-1/index.html)
+
+![Screen Shot 2021-12-30 at 13 20 35](https://user-images.githubusercontent.com/94856444/147755961-266008c1-9422-413b-8a04-4ec107a5d581.png)
 
 ## Milestone Project 1 
 
@@ -66,6 +68,8 @@ Font
 
 ### Index/Home
 
+![Screen Shot 2021-12-30 at 13 30 17](https://user-images.githubusercontent.com/94856444/147756383-09b88c66-81f2-4784-8fbe-8bda041b3d92.png)
+
 #### Menu Button
 Essentially acting like a Nav Bar. This button drop downs and allows the user to navigate to rest of the website from any page. No need to revert back to the previous page using the "back button".
 It consists of two navigation links. One for Home and one for viewing the dogs avaialble. 
@@ -74,22 +78,38 @@ It consists of two navigation links. One for Home and one for viewing the dogs a
 This allows the user to navigate to the the donation page regardless on which page they are on. 
 
 #### Section 1 
+
+![Screen Shot 2021-12-30 at 13 32 07](https://user-images.githubusercontent.com/94856444/147756471-a449cde7-dae7-40cd-9df0-599a0d25fd6c.png)
+
 This is a picture of a dog looking at a tennis ball. 
 This sets the mood for the user and dog interaction, subconciously convincing the user that this is the correct life-decision for them. 
 
 We also have cover-text over the hero image, again prompting the user further and taking them further along the,subconcious, road to adoption.
 
 #### Section 2
+
+![Screen Shot 2021-12-30 at 13 33 28](https://user-images.githubusercontent.com/94856444/147756556-c3220e78-9bcd-484b-ba1c-4bd5f236549e.png)
+
 This is to give the user some background knowledge on the company. As they become more familarised with the company they are more likely to use its service or donate in this instance. This section also offers the users reasons to choose Adopt A Dog instead of an alternative adoption agency. 
 
 #### The Footer
+
+![Screen Shot 2021-12-30 at 13 34 02](https://user-images.githubusercontent.com/94856444/147756607-07d58ca5-9ccb-4a92-a048-f6508d58f63b.png)
+
 This has links to social media through respective icons. These open on a new tab. 
 We also have the contact details for the company which is accessible from any page. Having this information readily available allows the user to get in contact quickly and easily, without the need to search for contact details.
 
 ### Meet the Doggos (page)
+
+![Screen Shot 2021-12-30 at 13 34 48](https://user-images.githubusercontent.com/94856444/147756658-601658dd-726c-44d8-8659-9a1cf49f5341.png)
+
 This page allows the user to browse through the dogs that are currently avainlable. This page consists of a picture and a small paragraph written in the 1st person, from the dog's persepctive, and offers a description for the respective dog. 
 
 ### Donation (page)
+
+![Screen Shot 2021-12-30 at 13 35 39](https://user-images.githubusercontent.com/94856444/147756729-57eb8ef2-2284-47c2-8bf9-9150202356e2.png)
+
+
 This page allows the user to enter contact and bank details to submit a donation going towards the company. 
 
 ## Future Features
