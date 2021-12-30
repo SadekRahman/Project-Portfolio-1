@@ -92,4 +92,21 @@ This page allows the user to browse through the dogs that are currently avainlab
 ### Donation (page)
 This page allows the user to enter contact and bank details to submit a donation going towards the company. 
 
+## Future Features
+
+Add a page where you can get generic information on dog breeds
+Add a where to find us page with map. Link this to existing map apps on phones. 
+Add a 'leave a message' box under the donation page.
+Once "submit" is pressed to redirect to a "thank you" page which gives receipt and confirmation. 
+Allow users to create an account. 
+
 ## Testing 
+
+All pages have been tested across all screen sizes from 360px x 640px and upwards and have been styled accordingly. 
+All links work and redirect. 
+All external liks open in a new tab using target="_blank" function. 
+Testing has been done across 3 different web browsers. 
+
+### Validator Testing
+CSS fully validated through (https://jigsaw.w3.org/css-validator/)
+
