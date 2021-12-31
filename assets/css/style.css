@@ -261,3 +261,15 @@
          font-size: 40px;
     }
 }
+
+/* media-queries for 360px and below */
+@media screen and (max-width: 360px) {
+    div > p {
+        font-size: 12px;
+        margin: 0 auto;
+        padding: 20px 0px 10px 14px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
