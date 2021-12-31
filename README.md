@@ -47,6 +47,7 @@ All pages contain a drop-down menu at the top of the page included in the header
 ### Font 
 
 - We use Amatic Sc with a fall back of sans-serif throughout the website to maintain a level of consistency and allows the viewer to familiarise themselves further. 
+- Also used Font Awesome for icons across all the pages.
 
 ## Organisation Goals
 * To show the user that "Adopt A Dog" is the place where one should look if thinking about adopting a dog. 
