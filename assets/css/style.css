@@ -224,6 +224,7 @@ button {
     font-size: 26px;
     text-align: center;
     font-weight: bold;
+    cursor: pointer;
 }
 /* media-queries for 690px and below */
  @media screen and (max-width: 690px) {
