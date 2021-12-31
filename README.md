@@ -38,13 +38,13 @@ The website is aimed at users who are looking to adopt a dog and to choose from 
 
 All pages contain a drop-down menu at the top of the page included in the header. A donation button is also included in the header, making the donating process streamline for the visitor. This moves the hero imaged down and so is compatible for mobile phones. 
 
-Color
+### Color
 
 - The color scheme is quite simple. The index page allows the hero-image to do all the talking. As we allow the picture to grab the attention of the viewer, we keep a neutral background to encourage a change of emotion in the viewer. 
 
 - The "Donation" page is kept grey as this allows the viewer to remain calm and follow through with their decision. This light grey color is used throughout the website. 
 
-Font 
+### Font 
 
 - We use Amatic Sc with a fall back of sans-serif throughout the website to maintain a level of consistency and allows the viewer to familiarise themselves further. 
 
@@ -64,7 +64,7 @@ Font
 * Donate to this organisation
 * Finding a companion
 
-### -Existing Features-
+### Existing Features
 
 ### Index/Home
 
@@ -81,10 +81,10 @@ This allows the user to navigate to the donation page regardless on which page t
 
 ![Screen Shot 2021-12-30 at 13 32 07](https://user-images.githubusercontent.com/94856444/147756471-a449cde7-dae7-40cd-9df0-599a0d25fd6c.png)
 
-This is a picture of a dog looking at a tennis ball. 
-This sets the mood for the user and dog interaction, subconsciously convincing the user that this is the correct life-decision for them. 
+- This is a picture of a dog looking at a tennis ball. 
+- This sets the mood for the user and dog interaction, subconsciously convincing the user that this is the correct life-decision for them. 
 
-We also have cover-text over the hero image, again prompting the user further and taking them further along the, subconscious, road to adoption.
+- We also have cover-text over the hero image, again prompting the user further and taking them further along the, subconscious, road to adoption.
 
 #### Section 2
 
@@ -96,8 +96,8 @@ This is to give the user some background knowledge on the company. As they becom
 
 ![Screen Shot 2021-12-30 at 13 34 02](https://user-images.githubusercontent.com/94856444/147756607-07d58ca5-9ccb-4a92-a048-f6508d58f63b.png)
 
-This has links to social media through respective icons. These open on a new tab. 
-We also have the contact details for the company which is accessible from any page. Having this information readily available allows the user to get in contact quickly and easily, without the need to search for contact details.
+- This has links to social media through respective icons. These open on a new tab. 
+- We also have the contact details for the company which is accessible from any page. Having this information readily available allows the user to get in contact quickly and easily, without the need to search for contact details.
 
 ### Meet the Doggos (page)
 
@@ -114,11 +114,11 @@ This page allows the user to enter contact and bank details to submit a donation
 
 ## Future Features
 
-Add a page where you can get generic information on dog breeds
-Add a where to find us page with map. Link this to existing map apps on phones. 
-Add a 'leave a message' box under the donation page.
-Once "submit" is pressed to redirect to a "thank you" page which gives receipt and confirmation. 
-Allow users to create an account. 
+- Add a page where you can get generic information on dog breeds
+- Add a where to find us page with map. Link this to existing map apps on phones. 
+- Add a 'leave a message' box under the donation page.
+- Once "submit" is pressed to redirect to a "thank you" page which gives receipt and confirmation. 
+- Allow users to create an account targeted at repeating visitors.
 
 ## Testing 
 
@@ -146,7 +146,7 @@ Testing has been done across 3 different web browsers : Safari, Chrome and Firef
 
 
 # Accessibility 
-- I can confirm that the colors and fonts used are easy to read and accessible by running it through lighthouse in dev tools
+I can confirm that the colors and fonts used are easy to read and accessible by running it through lighthouse in dev tools
 
 ![Screen Shot 2021-12-31 at 06 34 38](https://user-images.githubusercontent.com/94856444/147808039-b513505a-7c6a-49c1-b7e3-daec96614155.png)
 
@@ -172,7 +172,7 @@ No unfixed bugs
 * Under source select "Main" enabling the site to be built from the GitHub main branch
 * Refresh the page and after a few minutes a link to the site is provided under the same section
 
-## -Credits-
+## Credits
 
 ### Content
 Content for the website, included mainly in the index.html page and meet_the_doggos.html page, was created by me with the help of fellow dog enthusiast Scarlett Wood Evans.
@@ -181,10 +181,10 @@ Content for the website, included mainly in the index.html page and meet_the_dog
 - The pictures on the meet_the_doggos.html page was provided by dog walker Elle Wood Evans.
 - The picture on the index.html page was found browsing the internet. The image address: [https://www.purina.co.uk/sites/default/files/2021-03/Article%20Hero%20playing%20with%20dog.jpg].
 
-### Acknowledgement
+## Acknowledgement
 I would like to thank my mentor Benjamin Kavanagh for his continual support and guidance throughout this project.
 
-#### Tools
+## Tools
 - To reduce the size of images, I used (https://www.reduceimages.com/)
 - To format my css code, I used (https://www.cleancss.com)
 - To format my html code, I used (https://webformatter.com)
