@@ -218,6 +218,13 @@
      padding: 10px;
      font-size: 40px;
 }
+button {
+    font-family: Amatic Sc, sans-serif;
+    letter-spacing: 2px;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+}
 /* media-queries for 690px and below */
  @media screen and (max-width: 690px) {
      .phone, .email {
