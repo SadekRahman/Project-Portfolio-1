@@ -193,3 +193,4 @@ I would like to thank my mentor Benjamin Kavanagh for his continual support and 
 - To monitor and improve the level of accessibility my website offered, I used (https://wave.webaim.org/)
 - To write my code I used GitPod
 - To deploy and store the source code I used GitHub
+- To generate the favicon, I used (https://www.favicon-generator.org/)
